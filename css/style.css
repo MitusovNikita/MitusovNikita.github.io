@@ -1,0 +1,82 @@
+body {
+  background-color: #333;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 700px;
+  padding: 2vh 2vh 5vh;
+}
+
+/* Header block */
+.masthead-brand {
+  margin-left: 5vw;
+}
+/* /Header block */
+
+/* Main block */
+.main {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.button {
+  margin-top: 2vh;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #fff;
+  border: .05rem solid #fff;
+  color: #333;
+  font-weight: 700;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+hr {
+  background-color: #fff;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+/* /Main block */
+
+/* Examples block */
+.card-box,
+.last-card-box {
+  width: 50%;
+}
+
+.card {
+  margin:auto;
+  width: 18rem;
+}
+
+.card-title,
+.card-text {
+  color: #333;
+}
+/* /Examples block */
+
+/* Media queries */
+@media (max-width: 620px) {
+  .card-box,
+  .last-card-box {
+    width: 100%;
+  }
+
+  .card-box {
+    margin-bottom: 5vh;
+  }
+}
+
+@media (max-width: 620px) {
+  .cover-heading {
+    font-size: 2.25rem;
+  }
+}
+/* /Media queries */
