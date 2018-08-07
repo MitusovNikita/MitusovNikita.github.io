@@ -51,14 +51,29 @@ hr {
   width: 50%;
 }
 
+.card-box {
+  margin-bottom: 5vh;
+}
+
 .card {
+  min-height: 384px;
   margin:auto;
+  position: relative;
   width: 18rem;
+}
+
+.card-body a {
+  text-decoration: none;
 }
 
 .card-title,
 .card-text {
   color: #333;
+}
+
+.card-button {
+  bottom: 20px;
+  position: absolute;
 }
 /* /Examples block */
 
