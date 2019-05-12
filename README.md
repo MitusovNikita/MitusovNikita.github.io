@@ -1,2 +1,2 @@
 # MitusovNikita.github.io
-Examples
+Projects list
