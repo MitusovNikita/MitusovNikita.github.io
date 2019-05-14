@@ -38,7 +38,7 @@ body {
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-hr {
+.main-hr {
   background-color: #fff;
   margin-bottom: 10vh;
   margin-top: 10vh;
@@ -46,6 +46,14 @@ hr {
 /* /Main block */
 
 /* Examples block */
+hr {
+  background-color: #fff;
+}
+
+.examples-title {
+  font-size: 20px;
+}
+
 .card-box,
 .last-card-box {
   width: 50%;
