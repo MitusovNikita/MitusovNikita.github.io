@@ -1,2 +1,2 @@
 # MitusovNikita.github.io
-Projects list
+Примеры работ в виде сайта на хостинге - github.
